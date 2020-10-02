@@ -1,6 +1,6 @@
-# 🌈 Chromanome
+# 🌈 Chromataxy
 
-**Chromanome** (abbreviated ***cono***) is a perceptually intuitive **c**olor **n**aming **s**ystem based on the ***Lightness-Chroma-Hue*** *color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve.
+**Chromataxy** (abbreviated ***coxy***) is a perceptually intuitive **c**olor **n**aming **s**ystem based on the ***Lightness-Chroma-Hue*** *color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve.
  
  ### Features
 
