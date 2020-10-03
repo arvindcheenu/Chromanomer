@@ -1,0 +1,31 @@
+{
+  "name": "chromataxy-css",
+  "version": "1.0.0",
+  "description": "Chromataxy is a perceptually intuitive color naming system that names a sizeable spectrum of colors while boasting a negligible learning curve.",
+  "style": "./coxy.min.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindcheenu/Chromataxy.git"
+  },
+  "keywords": ["color","lch","color-system", "naming-convention", "nomenclature", "chroma", "taxonomy", "css", "design"],
+  "scripts": {
+    "watch": "node-sass ./coxy.scss --watch",
+    "compile": "node-sass ./coxy.scss css/coxy.comp.css",
+    "prefix": "postcss css/coxy.comp.css --use autoprefixer -b 'last 4 versions' -o css/coxy.prefix.css",
+    "unwrap": "node-sass css/coxy.prefix.css ./coxy.css --output-style expanded",
+    "minify": "node-sass css/coxy.prefix.css ./coxy.min.css --output-style compressed",
+    "build": "npm-run-all compile prefix unwrap minify"
+  },
+  "author": "Arvind Srinivasan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arvindcheenu/Chromataxy/issues"
+  },
+  "homepage": "https://github.com/arvindcheenu/Chromataxy#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^8.0.0"
+  }
+}
