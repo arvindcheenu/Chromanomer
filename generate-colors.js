@@ -122,7 +122,7 @@ colorJSON["transparent"]["lch"] = 'transparent';
 colorJSON["transparent"]["srgb"] = 'transparent';
 colorJSON["transparent"]["p3"] = 'transparent';
 colorJSON["length"] = Object.keys(colorJSON).length;
-let json = JSON.stringify(colorJSON,null,2)
+let json = JSON.stringify(colorJSON)
 fs.writeFile('coxy.names.json', json, 'utf8', function readFileCallback(err, data){
     if (err){
         console.log(err);
