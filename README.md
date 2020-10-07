@@ -23,7 +23,7 @@ To ensure that the naming system is semantically intuitive and accessible, simpl
 
 #### Degrees of Hue Table
 
-All the numbers have units in degrees (not radians). This naming method adds an additional dimension of **temperature** to distinguish transitional colours between two hues, effectively **naming a hue for every *3° rotation***. In this table, *Base* denotes only the root colour without a describing adjective being attached to it. The base color names are generated from the nearest equivalents in [**CSS Named Colors**](https://en.wikipedia.org/wiki/Web_colors#CSS_colors)
+All the numbers have units in degrees (not radians). This naming method adds an additional dimension of **temperature** to distinguish transitional colours between two hues, effectively **naming a hue for every *3° rotation***. In this table, *Base* denotes only the root colour without a describing adjective being attached to it. The base color names are generated from the nearest equivalents in [**Named HTML CSS Colors**](http://www.htmlcsscolor.com/).
 
 | **Colour**         | **Coolest** | **Cooler** | **Cool** | **Base** | **Warm** | **Warmer** | **Warmest** |
 | ------------------ | ----------- | ---------- | -------- | -------- | -------- | ---------- | ----------- |
