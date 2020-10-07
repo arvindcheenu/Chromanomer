@@ -23,28 +23,28 @@ To ensure that the naming system is semantically intuitive and accessible, simpl
 
 #### Degrees of Hue Table
 
-All the numbers have units in degrees (not radians). This naming method adds an additional dimension of **temperature** to distinguish transitional colours between two hues, effectively **naming a hue for every *3° rotation***. In this table, *Base* denotes only the root colour without a describing adjective being attached to it.
+All the numbers have units in degrees (not radians). This naming method adds an additional dimension of **temperature** to distinguish transitional colours between two hues, effectively **naming a hue for every *3° rotation***. In this table, *Base* denotes only the root colour without a describing adjective being attached to it. The base color names are generated from the nearest equivalents in [**CSS Named Colors**](https://en.wikipedia.org/wiki/Web_colors#CSS_colors)
 
-| **Colour**           | **Coolest** | **Cooler** | **Cool** | **Base** | **Warm** | **Warmer** | **Warmest** |
-| -------------------- | ----------- | ---------- | -------- | -------- | -------- | ---------- | ----------- |
-| **Rose**             | 1           | 4          | 7        | 10       | 13       | 16         | 19          |
-| **Red**              | 21          | 24         | 27       | 30       | 33       | 36         | 39          |
-| **Orange**           | 41          | 44         | 47       | 50       | 53       | 56         | 59          |
-| **Amber**            | 61          | 64         | 67       | 70       | 73       | 76         | 79          |
-| **Yellow**           | 81          | 84         | 87       | 90       | 93       | 96         | 99          |
-| **Chartreuse Green** | 101         | 104        | 107      | 110      | 113      | 116        | 119         |
-| **Green**            | 121         | 124        | 127      | 130      | 133      | 136        | 139         |
-| **Spring Green**     | 141         | 144        | 147      | 150      | 153      | 156        | 159         |
-| **Teal**             | 161         | 164        | 167      | 170      | 173      | 176        | 179         |
-| **Cyan**             | 181         | 184        | 187      | 190      | 193      | 196        | 199         |
-| **Cobalt Blue**      | 201         | 204        | 207      | 210      | 213      | 216        | 219         |
-| **Sky Blue**         | 221         | 224        | 227      | 230      | 233      | 236        | 239         |
-| **Azure Blue**       | 241         | 244        | 247      | 250      | 253      | 256        | 259         |
-| **Blue**             | 261         | 264        | 267      | 270      | 273      | 276        | 279         |
-| **Indigo**           | 281         | 284        | 287      | 290      | 293      | 296        | 299         |
-| **Violet**           | 301         | 304        | 307      | 310      | 313      | 316        | 319         |
-| **Magenta**          | 321         | 324        | 327      | 330      | 333      | 336        | 339         |
-| **Pink**             | 341         | 344        | 347      | 350      | 353      | 356        | 359         |
+| **Colour**         | **Coolest** | **Cooler** | **Cool** | **Base** | **Warm** | **Warmer** | **Warmest** |
+| ------------------ | ----------- | ---------- | -------- | -------- | -------- | ---------- | ----------- |
+| **CeriseRed**      | 1           | 4          | 7        | 10       | 13       | 16         | 19          |
+| **CinnabarRed**    | 21          | 24         | 27       | 30       | 33       | 36         | 39          |
+| **FieryOrange**    | 41          | 44         | 47       | 50       | 53       | 56         | 59          |
+| **CopperOrange**   | 61          | 64         | 67       | 70       | 73       | 76         | 79          |
+| **LuxorGold**      | 81          | 84         | 87       | 90       | 93       | 96         | 99          |
+| **OliveGreen**     | 101         | 104        | 107      | 110      | 113      | 116        | 119         |
+| **ForestGreen**    | 121         | 124        | 127      | 130      | 133      | 136        | 139         |
+| **AppleGreen**     | 141         | 144        | 147      | 150      | 153      | 156        | 159         |
+| **SeaGreen**       | 161         | 164        | 167      | 170      | 173      | 176        | 179         |
+| **TealGreen**      | 181         | 184        | 187      | 190      | 193      | 196        | 199         |
+| **PacificBlue**    | 201         | 204        | 207      | 210      | 213      | 216        | 219         |
+| **CuriousBlue**    | 221         | 224        | 227      | 230      | 233      | 236        | 239         |
+| **DodgerBlue**     | 241         | 244        | 247      | 250      | 253      | 256        | 259         |
+| **AzureBlue**      | 261         | 264        | 267      | 270      | 273      | 276        | 279         |
+| **RoyalBlue**      | 281         | 284        | 287      | 290      | 293      | 296        | 299         |
+| **AmethystPurple** | 301         | 304        | 307      | 310      | 313      | 316        | 319         |
+| **FuchsiaPink**    | 321         | 324        | 327      | 330      | 333      | 336        | 339         |
+| **CerisePink**     | 341         | 344        | 347      | 350      | 353      | 356        | 359         |
 
 This results in a whopping **126 hue variations per combination** of chroma and lightness. 
 
@@ -52,49 +52,52 @@ This results in a whopping **126 hue variations per combination** of chroma and 
 
 The chroma range **(0 - 100)** is split into **12** (3 forms of 4 comparative adjectives each) **adjectives** with **2** extra stops for denoting *gray* and *base* colors totalling **14 segments**. In this table, *Base* denotes only the root colour without a describing adjective being attached to it.
 
-| **Chroma** (in degrees) | **Name** |
-| ----------------------- | -------- |
-| 0                       | Gray     |
-| 7.6                     | Dullest  |
-| 15.4                    | Duller   |
-| 23.1                    | Dull     |
-| 30.8                    | Dimmest  |
-| 38.5                    | Dimmer   |
-| 46.2                    | Dim      |
-| 53.9                    | Base     |
-| 61.6                    | Deep     |
-| 69.3                    | Deeper   |
-| 77                      | Deepest  |
-| 84.7                    | Vivid    |
-| 92.4                    | Vivider  |
-| 100                     | Vividest |
+| **Chroma** | **Names** |
+| ---------- | --------- |
+| 0          | Gray      |
+| 9.25       | Gloomiest |
+| 18.5       | Gloomier  |
+| 27.75      | Gloomy    |
+| 37         | Dullest   |
+| 46.25      | Duller    |
+| 55.5       | Dull      |
+| 66         | Base      |
+| 71.65      | Deep      |
+| 77.3       | Deeper    |
+| 82.95      | Deepest   |
+| 88.6       | Vivid     |
+| 94.25      | Vivider   |
+| 99.9       | Vividest  |
 
 #### Lightness Table
 
-The lightness range **(0 - 100)** is split into **12** (3 forms of 4 comparative adjectives each) **adjectives** with **4** extra stops for denoting *white*, *black*, *rich* and *base* colors totalling **16 segments**. In this table, *Base* denotes only the root colour without a describing adjective being attached to it.
+The lightness range **(0 - 100)** is split into **12** (3 forms of 4 comparative adjectives each) **adjectives** with **4** extra stops for denoting *white*, *black* and *base* colors totalling **15 segments**. In this table, *Base* denotes only the root colour without a describing adjective being attached to it.
+
+**Rationale** : Among the 4 chosen adjectives, 2 adjectives (*dark* and *dim*) are used to denote the *shades* of a color while the other 2 (*pale* and *bright*) are used to denote the *tints*. Here, the adjectives describe the lighting of a windowless room  (a room without an external light source). Hence, *black* corresponds to a pitch black room  with walls painted with 100% light-absorbing paint and vice versa.
 
 | **Lightness (in Degrees)** | **Name**  |
 | -------------------------- | --------- |
 | 0                          | Black     |
-| 6.7                        | Darkest   |
-| 13.4                       | Darker    |
-| 20.1                       | Dark      |
-| 26.8                       | Dimmest   |
-| 33.5                       | Dimmer    |
-| 40.2                       | Dim       |
-| 46.9                       | Base      |
-| 53.6                       | Rich      |
-| 60.3                       | Pale      |
-| 67                         | Paler     |
-| 73.7                       | Palest    |
-| 80.4                       | Bright    |
-| 87.1                       | Brighter  |
-| 93.8                       | Brightest |
+| 7.25                       | Darkest   |
+| 14.5                       | Darker    |
+| 21.75                      | Dark      |
+| 29                         | Dimmest   |
+| 36.25                      | Dimmer    |
+| 43.5                       | Dim       |
+| 50.75                      | Base      |
+| 58                         | Pale      |
+| 65.25                      | Paler     |
+| 72.5                       | Palest    |
+| 79.75                      | Bright    |
+| 87.5                       | Brighter  |
+| 95.25                      | Brightest |
 | 100                        | White     |
 
 #### Alpha Table
 
 The alpha range **(0 - 100)** is split into **9** (3 forms of 3 comparative adjectives each) **adjectives** with **2** extra stops for denoting *transparent* and *base* colors totalling **11 segments**. In this table, *Base* denotes only the root colour without a describing adjective being attached to it.
+
+**Rationale** : The adjectives chosen (*clear*, *misty* and *foggy*) indicate the appearance of a glass paned window under various weather conditions. Here, a perfectly clear window equates to a transparent color and vice versa.
 
 | **Alpha (in Percentage)** | **Name**    |
 | ------------------------- | ----------- |
@@ -110,7 +113,11 @@ The alpha range **(0 - 100)** is split into **9** (3 forms of 3 comparative adje
 | 90                        | Foggiest    |
 | 100                       | Base        |
 
-Thus, each hue consists of **224 variations of Chroma and Lightness**. Given that there are **126 hues**, About  **28,224 named colors** can be derived. If we factor in the additional dimension of **Transparency**, A staggering collection of **3,10,464 named colors** can be derived.
+Thus, each hue consists of **210 variations of Chroma and Lightness**. Given that there are **126 hues**, About  **26,460 named colors** can be derived. 
+
+> To put that number in perspective, If you cycle through **every unique color** generated by coxy as your **daily desktop wallpaper**, it would approximately take you **72 years** to eventually run out of unique wallpapers..
+
+If we factor in the additional dimension of **Transparency**, A staggering collection of **2,91,060 named colors** can be derived.
 
 ---
 

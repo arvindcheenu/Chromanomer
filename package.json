@@ -7,8 +7,19 @@
     "type": "git",
     "url": "git+https://github.com/arvindcheenu/Chromataxy.git"
   },
-  "keywords": ["color","lch","color-system", "naming-convention", "nomenclature", "chroma", "taxonomy", "css", "design"],
+  "keywords": [
+    "color",
+    "lch",
+    "color-system",
+    "naming-convention",
+    "nomenclature",
+    "chroma",
+    "taxonomy",
+    "css",
+    "design"
+  ],
   "scripts": {
+    "generate": "node generate-colors.js",
     "watch": "node-sass ./coxy.scss --watch",
     "compile": "node-sass ./coxy.scss css/coxy.comp.css",
     "prefix": "postcss css/coxy.comp.css --use autoprefixer -b 'last 4 versions' -o css/coxy.prefix.css",
@@ -26,6 +37,7 @@
     "autoprefixer": "^10.0.1",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
+    "postcss": "^8.1.1",
     "postcss-cli": "^8.0.0"
   }
 }
