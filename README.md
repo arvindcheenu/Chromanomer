@@ -1,6 +1,9 @@
-# 🌈 Chromataxy
-
-**Chromataxy** (abbreviated ***coxy***) is a perceptually intuitive **c**olor **n**aming **s**ystem based on the ***Lightness-Chroma-Hue*** *color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve.
+<p align="center">
+ <img width="60%" src="https://repository-images.githubusercontent.com/298333946/17336580-0975-11eb-822d-e846d4a8d28d" alt="Chromataxy Logo"/><br/>
+ <b>Chromataxy</b> (abbreviated <i><b>coxy</b></i>) is a perceptually intuitive <b>c</b>olor <b>n</b>aming <b>s</b>ystem based on the <i><b>Lightness-Chroma-Hue</b></i> <i>color space</i> that covers a sizeable spectrum of colors while boasting a negligible learning curve.
+ </p>
+ 
+ ---
  
  ### Features
 
