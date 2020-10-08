@@ -125,6 +125,7 @@ You can use either the `40 MB coxy.scss file` or the `455 MB ./css/coxy.css file
 Furthermore, the css utility classes offers **graceful degradation** irrespective of the hardware support available thus making your css **future-proof**.
 
 | **Color Property** | **Usage as class** | **Description** |
+| ------------------ | ----------- | ---------- | 
 | `color` | `{color} text` | Specifies the text color of an element |
 | `background-color` | `{color} background` | Specifies the background color of an element |
 | `border-color` | `{color} border` | Sets the color of all four borders |
