@@ -4,7 +4,7 @@
  
  ### Features
 
-* Over **3 lakh** named colors
+* Over **3 lakh** named colors and **2.3 million utility classes**
 * **Perceptually uniform**<sup>[1]</sup> colours
 * **Semantically sound** names
 * **ii8n**<sup>[2]</sup> friendly 
