@@ -143,7 +143,7 @@ Furthermore, the css utility classes offers **graceful degradation** irrespectiv
 
 ### But I still feel reluctant about the size...
 
-**No Worries!** A small postcss plugin is currently in the works that will eliminate the need for the above files. This repository mainly houses the code for generating the colours and testing its feasibility.
+**No Worries!** A small postcss plugin is currently in the works that will eliminate the need for the above files. This repository mainly houses the code for generating the colours and testing its feasibility. The Postcss plugin will also provide multiple language support.
 
 ---
 
