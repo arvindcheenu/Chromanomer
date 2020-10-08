@@ -116,7 +116,7 @@ function alpha_to_string(a = 100) {
 }
 function LCH_to_P3_string(l, c, h, a = 100) {
 	const [L, C, H]  = force_into_gamut(l, c, h, isLCH_within_P3);
-	return "color(display-p3 " + LCH_to_P3([+l, +c, +h]).map(x => {
+	return "color(display-p3 " + LCH_to_P3([+L, +C, +H]).map(x => {
 		x = Math.round(x * 10000)/10000;
 		return x;
 	}).join(" ") + alpha_to_string(a) + ")";

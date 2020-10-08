@@ -95,15 +95,15 @@ for (const [color, hueObject] of Object.entries(hues)) {
             let transparency = (alpha === "base" ? "" : alpha + "-");        
             Object.keys(lightnesses).forEach(lightness => {
             let light = (lightness === "base" ? "" : lightness + "-");
-            Object.keys(chromas).forEach(chrome => {
-                let chroma = (chrome === "base" ? "" : chrome + "-");
-                let fullColor = transparency + light + chroma + temp + color;
-                colorJSON[fullColor] = {};
-                colorJSON[fullColor]["lch"] = `lch(${lightnesses[lightness]} ${chromas[chrome]} ${hueObject[temperature]} ${asAlpha(alphas[alpha])})`;
-                colorJSON[fullColor]["srgb"] = srgb(lightnesses[lightness], chromas[chrome], hueObject[temperature], alphas[alpha]);
-                colorJSON[fullColor]["p3"] = p3(lightnesses[lightness], chromas[chrome], hueObject[temperature], alphas[alpha]);
+                Object.keys(chromas).forEach(chrome => {
+                    let chroma = (chrome === "base" ? "" : chrome + "-");
+                    let fullColor = transparency + light + chroma + temp + color;
+                    colorJSON[fullColor] = {};
+                    colorJSON[fullColor]["lch"] = `lch(${lightnesses[lightness]} ${chromas[chrome]} ${hueObject[temperature]}${asAlpha(alphas[alpha])})`;
+                    colorJSON[fullColor]["srgb"] = srgb(lightnesses[lightness], chromas[chrome], hueObject[temperature], alphas[alpha]);
+                    colorJSON[fullColor]["p3"] = p3(lightnesses[lightness], chromas[chrome], hueObject[temperature], alphas[alpha]);
+                })
             })
-        })
         })
     });
 }
@@ -121,12 +121,7 @@ colorJSON["transparent"] = {};
 colorJSON["transparent"]["lch"] = 'transparent';
 colorJSON["transparent"]["srgb"] = 'transparent';
 colorJSON["transparent"]["p3"] = 'transparent';
-colorJSON["length"] = Object.keys(colorJSON).length;
-let json = JSON.stringify(colorJSON,null,2)
+let json = JSON.stringify(colorJSON);
 fs.writeFile('coxy.names.json', json, 'utf8', function readFileCallback(err, data){
-    if (err){
-        console.log(err);
-    } else {
-        console.log("Colors generated successfully!")
-    }
+    if (err){ console.log(err); } else { console.log("Colors generated successfully!") }
 })
