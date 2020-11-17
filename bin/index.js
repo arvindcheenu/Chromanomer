@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-const {colorGenerator, makeVariables} = require ('./generator');
+const {colorGenerator, makeVariables} = require ('../generator');
 const {Coxy} = require ('../dist/coxy');
 const chalk = require ('chalk');
 require ('./intro') ();
@@ -337,7 +337,7 @@ let {argv} = require ('yargs')
   )
   .fail (function (msg, _, yargs) {
     console.log (yargs.help ());
-    console.error ('\n', chalk.red.dim (msg), '\n');
+    console.error ('\n', chalk.red.dim (msg === null ? '' : msg), '\n');
     process.exit (0);
   })
   .demandCommand (1, '')

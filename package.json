@@ -1,6 +1,6 @@
 {
   "name": "chromataxy",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A Javascript Library enabling Universally Accessible Color Selection through Intutive Naming Conventions.",
   "source": "index.js",
   "main": "dist/coxy.js",

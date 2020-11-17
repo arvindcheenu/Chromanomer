@@ -8,11 +8,11 @@
 ### 💄 Usage as a Style Generator
 Installing the package using `npm`:
 ```shell
-$ npm i chromataxy
+$ npm i chromataxy@latest
 ```
 Installing the package using `yarn`:
 ```shell
-$ yarn add chromataxy
+$ yarn add chromataxy@latest
 ```
 Importing styles into your `scss`:
 ```scss
@@ -23,11 +23,15 @@ For detailed documentation, go to [`STYLE.md`](./STYLE.md).
 ### 🕹️ Usage as a Command Line Interface
 1. Ensure that `chromataxy` is installed globally
 ```shell
-$ npm i chromataxy -g
+$ npm i chromataxy@latest -g
 ```
 2. Now you can use it in terminal like:
 ```shell
 $ coxy
+```
+To uninstall CLI, simply do:
+```shell
+$ npm uninstall chromataxy -g
 ```
 For detailed documentation, go to [`CLI.md`](./CLI.md).
 ### 💻 Usage in a Javascript Environment
