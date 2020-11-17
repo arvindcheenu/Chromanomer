@@ -1,0 +1,7 @@
+@import "./style/coxy";
+
+.example {
+  color: coxy("palest mild greenish red",0.4);
+  @include background-color("blackish vivid reddish purple")
+}
+@include generate-classes-for("warmest vivid bluish green",0.25)
