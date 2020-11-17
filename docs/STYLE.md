@@ -1,5 +1,27 @@
 # 💄 **Sass Api**
-[TOC]
+
+- [💄 **Sass Api**](#-----sass-api--)
+    + [🎛️ **Functions**](#------functions--)
+      - [#️⃣ percentMatch(\$str, \$substr) ⇒ `Number`](#----percentmatch---str----substr-----number-)
+      - [#️⃣ coxy(\$name, \$opacity) ⇒ `Sass::Color`](#----coxy---name----opacity-----sass--color-)
+      - [#️⃣ get-all-matching(\$substring,\$opacity) ⇒ `Sass::List`](#----get-all-matching---substring---opacity-----sass--list-)
+    + [🎛️ **Mixins**](#------mixins--)
+      - [#️⃣ color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----color---name----opacity-----sass--mixin-)
+      - [#️⃣ background-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----background-color---name----opacity-----sass--mixin-)
+      - [#️⃣ text-decoration-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----text-decoration-color---name----opacity-----sass--mixin-)
+      - [#️⃣ text-emphasis-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----text-emphasis-color---name----opacity-----sass--mixin-)
+      - [#️⃣ caret-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----caret-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-left-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-left-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-right-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-right-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-top-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-top-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-bottom-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-bottom-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-block-start-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-block-start-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-block-end-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-block-end-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-inline-start-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-inline-start-color---name----opacity-----sass--mixin-)
+      - [#️⃣ border-inline-end-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----border-inline-end-color---name----opacity-----sass--mixin-)
+      - [#️⃣ outline-color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----outline-color---name----opacity-----sass--mixin-)
+    + [ℹ️ **Examples**](#-----examples--)
 
 ### 🎛️ **Functions**
 **Kind**: *Exported Sass Module* 
