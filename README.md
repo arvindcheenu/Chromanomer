@@ -1,15 +1,15 @@
 
-## 🍭 Chromataxy
+# 🍭 Chromataxy
 **Chromataxy** (abbreviated ***coxy***) is a perceptually intuitive color naming system based on the ***Lightness Chroma Hue** color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve. 
 
 // screenshot
 
-Look below to learn more or go straight to [documentation](#links-to-documentation). 
+Look below to learn more or go straight to [documentation](#-links-to-documentation). 
 
 <a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a>
 <b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromataxy/blob/master/LICENSE">Apache-2.0</a></small></b>.
 
-#### 🔑 Key Features
+### 🔑 Key Features
 
 * 👁️ **Perceptually uniform** colours
 * 👌 **Semantically sound** names
@@ -37,5 +37,5 @@ Besides the above considerations while designing the schema, the following were 
 * The arrangement of Warm and Cool Ranges according to the gradatation of hues from adjacent hue sectors.
 
 ### 🔗 Links to Documentation
-<h1>🚸</h1>[Installation & Usage](./docs/INSTALL.md)|<h1>💄</h1>[Sass Api](./docs/STYLE.md)|<h1>💻</h1>[Node Api](./docs/API.md)|<h1>🕹️</h1>[Command Line Api](./docs/CLI.md)|
+|<h1>🚸</h1>[Installation & Usage](./docs/INSTALL.md)|<h1>💄</h1>[Sass Api](./docs/STYLE.md)|<h1>💻</h1>[Node Api](./docs/API.md)|<h1>🕹️</h1>[Command Line Api](./docs/CLI.md)|
 |--|--|--|--|
