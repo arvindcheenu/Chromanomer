@@ -28,7 +28,7 @@ This library builds over the **HSLUV** Color Space that maps the boundaries of R
 
 The following schema was arrived at by extracting the best traits from existing naming solutions (such as the Five Color Primaries in *Munsell Naming System*) and selecting linguistically universal color terms. The incorporation of Adjective terms also enhances the learnability and composability by reducing the potential number of color terms to remember.
 
-![Color Schema Visual Representation](./paper/schematic.jpeg)
+![Color Schema Visual Representation](https://raw.githubusercontent.com/arvindcheenu/Chromataxy/master/paper/schematic.jpeg)
 
 For a more detailed look at an object applying this schema, please see the file [`./lang/coxy.en.json`](./lang/coxy.en.json).
 
