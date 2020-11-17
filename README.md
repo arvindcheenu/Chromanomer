@@ -1,5 +1,5 @@
 
-## 🍭 Chromataxy
+# 🍭 Chromataxy
 **Chromataxy** (abbreviated ***coxy***) is a perceptually intuitive color naming system based on the ***Lightness Chroma Hue** color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve. 
 
 // screenshot
