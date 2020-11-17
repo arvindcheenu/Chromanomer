@@ -37,5 +37,5 @@ Besides the above considerations while designing the schema, the following were 
 * The arrangement of Warm and Cool Ranges according to the gradatation of hues from adjacent hue sectors.
 
 ### 🔗 Links to Documentation
-|<h1>🚸</h1>[Installation & Usage](./docs/INSTALL.md)|<h1>💄</h1>[Sass Api](./docs/STYLE.md)|<h1>💻</h1>[Node Api](./docs/API.md)|<h1>🕹️</h1>[Command Line Api](./docs/CLI.md)|
+|<h1>🚸</h1>[Installation & Usage](https://github.com/arvindcheenu/Chromataxy/blob/master/docs/INSTALL.md)|<h1>💄</h1>[Sass Api](https://github.com/arvindcheenu/Chromataxy/blob/master/docs/STYLE.md)|<h1>💻</h1>[Node Api](https://github.com/arvindcheenu/Chromataxy/blob/master/docs/API.md)|<h1>🕹️</h1>[Command Line Api](https://github.com/arvindcheenu/Chromataxy/blob/master/docs/CLI.md)|
 |--|--|--|--|
