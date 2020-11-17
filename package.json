@@ -13,7 +13,6 @@
   },
   "files": [
     "bin",
-    "demo",
     "dist",
     "generator",
     "lang"
