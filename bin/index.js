@@ -1,4 +1,4 @@
-// /usr/bin/env node
+#! /usr/bin/env node
 const {colorGenerator, makeVariables} = require ('./generator');
 const {Coxy} = require ('../dist/coxy');
 const chalk = require ('chalk');
