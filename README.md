@@ -9,7 +9,7 @@ Look below to learn more or go straight to [documentation](#-links-to-documentat
 <a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a>
 <b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromataxy/blob/master/LICENSE">Apache-2.0</a></small></b>.
 
-#### 🔑 Key Features
+### 🔑 Key Features
 
 * 👁️ **Perceptually uniform** colours
 * 👌 **Semantically sound** names
