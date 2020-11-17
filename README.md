@@ -4,7 +4,7 @@
 
 // screenshot
 
-Look below to learn more or go straight to [documentation](#links-to-documentation). 
+Look below to learn more or go straight to [documentation](#-links-to-documentation). 
 
 <a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a>
 <b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromataxy/blob/master/LICENSE">Apache-2.0</a></small></b>.
