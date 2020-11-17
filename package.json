@@ -16,8 +16,7 @@
     "demo",
     "dist",
     "generator",
-    "lang",
-    "index.js"
+    "lang"
   ],
   "scripts": {
     "start": "node index.js",
