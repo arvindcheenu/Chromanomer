@@ -1,5 +1,9 @@
 # 🚸 **Installation & Usage**
-[TOC]
+
+- [🚸 **Installation & Usage**](#-----installation---usage--)
+    + [💄 Usage as a Style Generator](#---usage-as-a-style-generator)
+    + [🕹️ Usage as a Command Line Interface](#----usage-as-a-command-line-interface)
+    + [💻 Usage in a Javascript Environment](#---usage-in-a-javascript-environment)
 
 ### 💄 Usage as a Style Generator
 Installing the package using `npm`:
