@@ -1,5 +1,5 @@
 const fs = require ('fs');
-const {colorGenerator} = require ('../generator/color');
+const {colorGenerator} = require ('./color');
 // Make Maps to be used for generating SASS Classes
 module.exports.makeVariables = function (lang = 'en') {
   const colorJSON = colorGenerator (lang);
