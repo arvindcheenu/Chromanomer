@@ -1,6 +1,6 @@
+// /usr/bin/env node
 const {colorGenerator, makeVariables} = require ('./generator');
 const {Coxy} = require ('../dist/coxy');
-const sass = require ('node-sass');
 const chalk = require ('chalk');
 require ('./intro') ();
 console.log ();
