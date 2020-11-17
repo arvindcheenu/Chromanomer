@@ -1,0 +1,54 @@
+{
+  "name": "chromataxy",
+  "version": "0.0.1",
+  "description": "A Javascript Library enabling Universally Accessible Color Selection through Intutive Naming Conventions.",
+  "source": "index.js",
+  "main": "dist/coxy.js",
+  "module": "dist/coxy.module.js",
+  "esmodule": "dist/coxy.modern.js",
+  "umd:main": "dist/coxy.umd.js",
+  "style": "style/_coxy.scss",
+  "bin": {
+    "coxy": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "cli": "node bin/index.js",
+    "test": "ava",
+    "coverage": "nyc npm run test",
+    "demo": "node-sass demo/scss/ -o demo/css/",
+    "cloc": "npx cloc ../chromataxy > cloc.txt",
+    "build": "microbundle --name Coxy --compress",
+    "dev": "microbundle watch"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ],
+    "files": [
+      "test/*.test.js"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "failWithoutAssertions": false,
+    "verbose": true
+  },
+  "author": "Arvind Srinivasan <arvind@cheenu.net>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "color-blind": "^0.1.1",
+    "hsluv": "^0.1.0",
+    "matercolors": "^1.2.1",
+    "nearest-color": "^0.4.4",
+    "node-sass": "^5.0.0",
+    "yargs": "^16.1.0"
+  },
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "babel-preset-env": "^1.7.0",
+    "esm": "^3.2.25",
+    "microbundle": "^0.12.4",
+    "nyc": "^15.1.0"
+  }
+}
