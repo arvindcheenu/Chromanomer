@@ -11,7 +11,7 @@
 ![screenshot](https://raw.githubusercontent.com/arvindcheenu/Chromanomer/master/screenshots/no-command.png)
 
 [![Installation and Usage](https://img.shields.io/badge/-Installation%20+%20usage-0144b7?style=for-the-badge&logo=PowerShell)](./INSTALL.md)
-[![Sass Styling Api](https://img.shields.io/badge/-Sass%20Styles-73264d?style=for-the-badge&logo=sass)](./STYLE.md)
+[![Sass Styling Api](https://img.shields.io/badge/-Sass%20Styles-73264d?style=for-the-badge&logo=sass)](./styling.html)
 [![Node Api](https://img.shields.io/badge/-Node%20Api-435d0e?style=for-the-badge&logo=node.js)](./API.md)
 [![CommandLine Api](https://img.shields.io/badge/-CommandLine%20Api-1a1a1a?style=for-the-badge&logo=GNU%20Bash)](./CLI.md)
  
