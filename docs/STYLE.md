@@ -2,8 +2,8 @@
 
 - [💄 **Sass Api**](#-sass-api)
   - [🎛️ **Functions**](#%EF%B8%8F-functions)
-      - [#️⃣ percentMatch(\$str, \$substr) ⇒ Number](%EF%B8%8F⃣-percentmatchstr-substr--number)
-      - [#️⃣ cono(\$name, \$opacity) ⇒ Sass::Color](%EF%B8%8F⃣-cononame-opacity--sasscolor)
+      - [#️⃣ percentMatch(\$str, \$substr) ⇒ Number](#%EF%B8%8F⃣-percentmatchstr-substr--number)
+      - [#️⃣ cono(\$name, \$opacity) ⇒ Sass::Color](#%EF%B8%8F⃣-cononame-opacity--sasscolor)
       - [#️⃣ get-all-matching(\$substring,\$opacity) ⇒ Sass::List](#%EF%B8%8F⃣-get-all-matchingsubstringopacity--sasslist)
   - [🎛️ **Mixins**](#%EF%B8%8F-mixins)
       - [#️⃣ color(\$name, \$opacity) ⇒ Sass::Mixin](#%EF%B8%8F⃣-colorname-opacity--sassmixin)
