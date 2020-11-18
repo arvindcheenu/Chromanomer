@@ -6,6 +6,7 @@ tags:
   - cli
   - color
   - color blind assist
+  - creative computation
   - hsluv
   - internationalisation
   - nomenclature
