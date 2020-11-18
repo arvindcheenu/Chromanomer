@@ -2,7 +2,7 @@
 
 ### Types of contributions we're looking for
 
-There are many ways you can directly contribute to **Chromataxy** (in *descending* order of need):
+There are many ways you can directly contribute to **Chromanomer** (in *descending* order of need):
 
 * Adding support for other preprocessors such as **Less**, **Stylus** and **PostCSS**.
 * Add support for new Languages in which Coxy can be adapted.
@@ -61,7 +61,7 @@ module.exports = {
 
 #### For Testing `scss` files
 
-> ⚠️ This setup might change in the near future to enable seamless usage of all languages so until then, Changes to Demo Files are **NOT TO BE PUSHED UNDER ANY CIRCUMSTANCES** and are currently present only for verification.
+> ⚠️ This setup might change in the near future to enable seamless usage of all languages so until then, Changes to Demo Files are **NOT TO BE PUSHED UNDER ANY CIRCUMSTANCES** and are currently present only for testing purposes.
 
 * In case you are testing a new language, generate `style/colors.scss` using the cli command `coxy run scss -l <lang-code>`.
 

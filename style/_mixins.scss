@@ -1,5 +1,5 @@
 @import './functions';
-// Mixins for using CSS Color Properties with Chromataxy
+// Mixins for using CSS Color Properties with Chromanomer
 @mixin color ($name,$opacity:1) {
     color: rgba(cono($name),$opacity);
 };
