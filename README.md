@@ -2,11 +2,10 @@
 # 🍭 Chromanomer
 <p>
    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/arvindcheenu/chromanomer?style=flat-square">
-   <img alt="npm" src="https://img.shields.io/npm/v/chromanomer?color=cc3534&style=flat-square">
-   <img alt="npm" src="https://img.shields.io/npm/dt/chromanomer?label=overall%20downloads&style=flat-square">
-   <img alt="npm bundle size (scoped)" src="https://img.shields.io/bundlephobia/min/chromanomer?label=npm%20bundle%20size&style=flat-square">
-   <img alt="npm dependencies" src="https://img.shields.io/static/v1?label=dependencies&message=0&color=brightgreen&style=flat-square">
-   <img alt="NPM" src="https://img.shields.io/npm/l/chromanomer?style=flat-square">
+   <a href="https://www.npmjs.com/package/chromanomer"><img alt="npm" src="https://img.shields.io/npm/v/chromanomer?color=cc3534&style=flat-square"></a>
+   <a href="https://www.npmjs.com/package/chromanomer"><img alt="npm bundle size (scoped)" src="https://img.shields.io/bundlephobia/min/chromanomer?label=npm%20bundle%20size&style=flat-square"></a>
+   <a href="https://www.npmjs.com/package/chromanomer"><img alt="npm dependencies" src="https://img.shields.io/static/v1?label=dependencies&message=0&color=brightgreen&style=flat-square"></a>
+   <a href="https://www.npmjs.com/package/chromanomer"><img alt="NPM" src="https://img.shields.io/npm/l/chromanomer?style=flat-square"></a>
 <br/>
 </p>
 
