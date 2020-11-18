@@ -1,16 +1,16 @@
 # 🕹️ Command Line Api
 
-- [🕹️ **Command Line Api**](#-command-line-api)
+- [🕹️ **Command Line Api**](#%EF%B8%8F-command-line-api)
     - [🚸 **Usage Documentation**](#-usage-documentation)
-        - [#️⃣ cono usage](#%EF%B8%8F%E2%83%A3-cono-usage)
-        - [#️⃣ cono color usage](#%EF%B8%8F%E2%83%A3-cono-color-usage)
-        - [#️⃣ cono nearest usage](#%EF%B8%8F%E2%83%A3-cono-nearest-usage)
-        - [#️⃣ cono run usage](#%EF%B8%8F%E2%83%A3-cono-run-usage)
-        - [#️⃣ cono palette usage](#%EF%B8%8F%E2%83%A3-cono-palette-usage)
-    - [ℹ️ **Usage Examples**](#-usage-examples)
-        - [#️⃣ For cono color](#%EF%B8%8F%E2%83%A3-for-cono-color)
-        - [#️⃣ For cono nearest](#%EF%B8%8F%E2%83%A3-for-cono-nearest)
-        - [#️⃣ For cono palette](#%EF%B8%8F%E2%83%A3-for-cono-palette)
+        - [#️⃣ `cono` usage](#%EF%B8%8F%E2%83%A3-cono-usage)
+        - [#️⃣ `cono color` usage](#%EF%B8%8F%E2%83%A3-cono-color-usage)
+        - [#️⃣ `cono nearest` usage](#%EF%B8%8F%E2%83%A3-cono-nearest-usage)
+        - [#️⃣ `cono run` usage](#%EF%B8%8F%E2%83%A3-cono-run-usage)
+        - [#️⃣ `cono palette` usage](#%EF%B8%8F%E2%83%A3-cono-palette-usage)
+    - [ℹ️ **Usage Examples**](#ℹ%EF%B8%8F-usage-examples)
+        - [#️⃣ For `cono color`](#%EF%B8%8F%E2%83%A3-for-cono-color)
+        - [#️⃣ For `cono nearest`](#%EF%B8%8F%E2%83%A3-for-cono-nearest)
+        - [#️⃣ For `cono palette`](#%EF%B8%8F%E2%83%A3-for-cono-palette)
 
 <!-- /TOC -->
 
