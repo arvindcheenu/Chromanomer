@@ -42,7 +42,8 @@ Besides the above considerations while designing the schema, the following were 
 * The arrangement of terms according to increasing order of intensity in chroma and lightness while diverging from the base value of the schema (see *The Handle* in the above schema).
 * The arrangement of Warm and Cool Ranges according to the gradatation of hues from adjacent hue sectors.
 
+---
 
-<a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a>
+<a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a><br/>
 <b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromanomer/blob/master/LICENSE">Apache-2.0</a></small></b>.
 
