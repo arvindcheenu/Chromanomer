@@ -2,7 +2,7 @@
 # 🍭 Chromanomer
 **Chromanomer** (abbreviated ***cono***) is a perceptually intuitive color naming system based on the ***Lightness Chroma Hue** color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve. 
 
-// screenshot
+![screenshot](https://raw.githubusercontent.com/arvindcheenu/Chromanomer/master/screenshots/no-command.png)
 
 Look below to learn more or go straight to [documentation](#-links-to-documentation). 
 
