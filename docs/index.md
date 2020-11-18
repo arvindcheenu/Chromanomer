@@ -45,7 +45,7 @@ Besides the above considerations while designing the schema, the following were 
 ---
 
 <p align="center">
-<a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a><br/><br/>
+<a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a><br/>
 <b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromanomer/blob/master/LICENSE">Apache-2.0</a></small></b>.
  </p>
 
