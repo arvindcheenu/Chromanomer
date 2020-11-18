@@ -23,6 +23,8 @@
 <a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a><br/>
 <b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromanomer/blob/master/LICENSE">Apache-2.0</a></small></b>.
 
+---
+
 ### 🔑 Key Features
 
 * 👁️ **Perceptually uniform** colours
