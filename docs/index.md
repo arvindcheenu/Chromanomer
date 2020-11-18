@@ -8,7 +8,9 @@
 <br/>
 </p>
 
+
 ![screenshot](https://raw.githubusercontent.com/arvindcheenu/Chromanomer/master/screenshots/no-command.png)
+
 
 [![Installation and Usage](https://img.shields.io/badge/-Installation%20+%20usage-0144b7?style=for-the-badge&logo=PowerShell)](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/INSTALL.md)
 [![Sass Styling Api](https://img.shields.io/badge/-Sass%20Styles-73264d?style=for-the-badge&logo=sass)](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/STYLE.md)
