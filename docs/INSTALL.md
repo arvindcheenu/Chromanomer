@@ -49,6 +49,6 @@ Here is a table of all the files in the `/dist` folder and what formats they sup
 
 These files are also available as a CDN from UNPKG for importing:
 ```js
-<script src="unpkg.com/chromanomer/@1.0.0/dist/cono.umd.js"></script>
+<script src="unpkg.com/chromanomer/@1.0.4/dist/cono.umd.js"></script>
 ```
 For detailed documentation, go to [`API.md`](./CLI.md).
