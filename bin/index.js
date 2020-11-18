@@ -337,6 +337,7 @@ let {argv} = require ('yargs')
   )
   .fail (function (_, __, yargs) {
     console.log (yargs.help ());
+    console.log ('');
     process.exit (0);
   })
   .demandCommand (1, '')
@@ -344,6 +345,6 @@ let {argv} = require ('yargs')
   .alias ('v', 'version')
   .epilog (
     chalk.dim (
-      `Made with ${chalk.white.red ('❤️')} by ${chalk.white.bold ('Arvind Srinivasan')}.\nLicensed under ${chalk.bold ('Apache-2.0')}.\n`
+      `Made with ${chalk.white.red ('❤️')}  by ${chalk.white.bold ('Arvind Srinivasan')}.\nLicensed under ${chalk.bold ('Apache-2.0')}.`
     )
   );

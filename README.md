@@ -38,4 +38,4 @@ Besides the above considerations while designing the schema, the following were 
 
 ### 🔗 Links to Documentation
 |<h1>🚸</h1>[Installation & Usage](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/INSTALL.md)|<h1>💄</h1>[Sass Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/STYLE.md)|<h1>💻</h1>[Node Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/API.md)|<h1>🕹️</h1>[Command Line Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/CLI.md)|
-|--|--|--|--|
+|:--:|:--:|:--:|:--:|
