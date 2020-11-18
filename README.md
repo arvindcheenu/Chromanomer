@@ -14,10 +14,16 @@
 
 ![screenshot](https://raw.githubusercontent.com/arvindcheenu/Chromanomer/master/screenshots/no-command.png)
 
-Look below to learn more or go straight to [documentation](#-links-to-documentation). 
+[![Installation and Usage](https://img.shields.io/badge/-Installation%20+%20usage-0144b7?style=for-the-badge&logo=PowerShell)](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/INSTALL.md)
+[![Sass Styling Api](https://img.shields.io/badge/-Sass%20Styles-73264d?style=for-the-badge&logo=sass)](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/STYLE.md)
+[![Node Api](https://img.shields.io/badge/-Node%20Api-435d0e?style=for-the-badge&logo=node.js)](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/API.md)
+[![CommandLine Api](https://img.shields.io/badge/-CommandLine%20Api-1a1a1a?style=for-the-badge&logo=GNU%20Bash)](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/CLI.md)
 
-<a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a>
+
+<a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a><br/>
 <b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromanomer/blob/master/LICENSE">Apache-2.0</a></small></b>.
+
+---
 
 ### 🔑 Key Features
 
@@ -45,7 +51,3 @@ For a more detailed look at an object applying this schema, please see the file 
 Besides the above considerations while designing the schema, the following were also looked for:
 * The arrangement of terms according to increasing order of intensity in chroma and lightness while diverging from the base value of the schema (see *The Handle* in the above schema).
 * The arrangement of Warm and Cool Ranges according to the gradatation of hues from adjacent hue sectors.
-
-### 🔗 Links to Documentation
-|<h1>🚸</h1>[Installation & Usage](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/INSTALL.md)|<h1>💄</h1>[Sass Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/STYLE.md)|<h1>💻</h1>[Node Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/API.md)|<h1>🕹️</h1>[Command Line Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/CLI.md)|
-|:--:|:--:|:--:|:--:|
