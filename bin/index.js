@@ -335,9 +335,8 @@ let {argv} = require ('yargs')
       }
     }
   )
-  .fail (function (msg, _, yargs) {
+  .fail (function (_, __, yargs) {
     console.log (yargs.help ());
-    console.error ('\n', chalk.red.dim (msg === null ? '' : msg), '\n');
     process.exit (0);
   })
   .demandCommand (1, '')
