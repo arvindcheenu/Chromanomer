@@ -3,7 +3,7 @@
 - [💄 **Sass Api**](#-----sass-api--)
     + [🎛️ **Functions**](#------functions--)
       - [#️⃣ percentMatch(\$str, \$substr) ⇒ `Number`](#----percentmatch---str----substr-----number-)
-      - [#️⃣ coxy(\$name, \$opacity) ⇒ `Sass::Color`](#----coxy---name----opacity-----sass--color-)
+      - [#️⃣ cono(\$name, \$opacity) ⇒ `Sass::Color`](#----cono---name----opacity-----sass--color-)
       - [#️⃣ get-all-matching(\$substring,\$opacity) ⇒ `Sass::List`](#----get-all-matching---substring---opacity-----sass--list-)
     + [🎛️ **Mixins**](#------mixins--)
       - [#️⃣ color(\$name, \$opacity) ⇒ `Sass::Mixin`](#----color---name----opacity-----sass--mixin-)
@@ -33,167 +33,167 @@ Finds the Percentage Match between two Strings.
 |--|--|--|
 | **`$str`** | `String` | The Base String to be compared to. |
 | **`$substr`** | `String` | The Substring to compare with |
-#### #️⃣ coxy(\$name, \$opacity) ⇒ `Sass::Color`  
-Finds the Nearest Matched Color for the given Coxy Color. 
+#### #️⃣ cono(\$name, \$opacity) ⇒ `Sass::Color`  
+Finds the Nearest Matched Color for the given Cono Color. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 #### #️⃣ get-all-matching(\$substring,\$opacity) ⇒ `Sass::List` 
-Finds the all Matched Color Strings for the given Coxy Color Substring. 
+Finds the all Matched Color Strings for the given Cono Color Substring. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$substring`** | `String` | The Coxy Name Substring to Lookup. |
+| **`$substring`** | `String` | The Cono Name Substring to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned colors in List. |
 ### 🎛️ **Mixins**
 **Kind**: *Exported Sass Module*
 
 #### #️⃣ color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ background-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `background-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `background-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ text-decoration-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `text-decoration-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `text-decoration-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ text-emphasis-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `text-emphasis-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `text-emphasis-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ caret-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `caret-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `caret-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-left-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-left-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-left-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-right-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-right-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-right-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-top-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-top-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-top-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-bottom-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-bottom-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-bottom-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-block-start-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-block-start-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-block-start-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-block-end-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-block-end-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-block-end-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-inline-start-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-inline-start-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-inline-start-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ border-inline-end-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `border-inline-end-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `border-inline-end-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 #### #️⃣ outline-color(\$name, \$opacity) ⇒ `Sass::Mixin`  
-Finds the Nearest Matched Color for the given Coxy Color and adds it to the `outline-color` property. 
+Finds the Nearest Matched Color for the given Cono Color and adds it to the `outline-color` property. 
 
 **Kind**: *Exported Sass Function* 
 |Param|Type|Description|
 |--|--|--|
-| **`$name`** | `String` | The Coxy Name to Lookup. |
+| **`$name`** | `String` | The Cono Name to Lookup. |
 | **`$opacity`** | `Float` | The Opacity to apply to returned color. |
 
 ### ℹ️ **Examples**
 The following CSS files incorporating the above API,
 ```scss
-@import "~chromataxy/style/coxy";
+@import "~chromanomer/style/cono";
 
 .example {
-  color: coxy("palest mild greenish red",0.4);
+  color: cono("palest mild greenish red",0.4);
   @include background-color("blackish vivid reddish purple")
 }
 @include generate-classes-for("warmest vivid bluish green",0.25)

@@ -1,22 +1,23 @@
 {
-  "name": "chromataxy",
-  "version": "1.0.6",
+  "name": "chromanomer",
+  "version": "1.0.0",
   "description": "A Javascript Library enabling Universally Accessible Color Selection through Intutive Naming Conventions.",
   "source": "index.js",
-  "main": "dist/coxy.js",
-  "module": "dist/coxy.module.js",
-  "esmodule": "dist/coxy.modern.js",
-  "umd:main": "dist/coxy.umd.js",
-  "style": "style/_coxy.scss",
+  "main": "dist/cono.js",
+  "module": "dist/cono.module.js",
+  "esmodule": "dist/cono.modern.js",
+  "umd:main": "dist/cono.umd.js",
+  "style": "style/_cono.scss",
   "bin": {
-    "coxy": "./bin/index.js"
+    "cono": "./bin/index.js"
   },
   "files": [
     "bin",
     "dist",
     "generator",
     "lang",
-    "utility"
+    "utility",
+    "style"
   ],
   "scripts": {
     "start": "node index.js",
@@ -24,8 +25,8 @@
     "test": "ava",
     "coverage": "nyc npm run test",
     "demo": "node-sass demo/scss/ -o demo/css/",
-    "cloc": "npx cloc ../chromataxy > cloc.txt",
-    "build": "microbundle --name Coxy --compress",
+    "cloc": "npx cloc ../chromanomer > cloc.txt",
+    "build": "microbundle --name Cono --compress",
     "dev": "microbundle watch"
   },
   "ava": {

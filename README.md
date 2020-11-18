@@ -1,13 +1,13 @@
 
-# 🍭 Chromataxy
-**Chromataxy** (abbreviated ***coxy***) is a perceptually intuitive color naming system based on the ***Lightness Chroma Hue** color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve. 
+# 🍭 Chromanomer
+**Chromanomer** (abbreviated ***cono***) is a perceptually intuitive color naming system based on the ***Lightness Chroma Hue** color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve. 
 
 // screenshot
 
 Look below to learn more or go straight to [documentation](#-links-to-documentation). 
 
 <a href="https://github.com/arvindcheenu">Made with ❤️ by <b>Arvind Srinivasan</b>.</a>
-<b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromataxy/blob/master/LICENSE">Apache-2.0</a></small></b>.
+<b><small>Licensed Under <a href="https://github.com/arvindcheenu/Chromanomer/blob/master/LICENSE">Apache-2.0</a></small></b>.
 
 ### 🔑 Key Features
 
@@ -28,14 +28,14 @@ This library builds over the **HSLUV** Color Space that maps the boundaries of R
 
 The following schema was arrived at by extracting the best traits from existing naming solutions (such as the Five Color Primaries in *Munsell Naming System*) and selecting linguistically universal color terms. The incorporation of Adjective terms also enhances the learnability and composability by reducing the potential number of color terms to remember.
 
-![Color Schema Visual Representation](https://raw.githubusercontent.com/arvindcheenu/Chromataxy/master/paper/schematic.jpeg)
+![Color Schema Visual Representation](https://raw.githubusercontent.com/arvindcheenu/Chromanomer/master/paper/schematic.jpeg)
 
-For a more detailed look at an object applying this schema, please see the file [`./lang/coxy.en.json`](./lang/coxy.en.json).
+For a more detailed look at an object applying this schema, please see the file [`./lang/cono.en.json`](./lang/cono.en.json).
 
 Besides the above considerations while designing the schema, the following were also looked for:
 * The arrangement of terms according to increasing order of intensity in chroma and lightness while diverging from the base value of the schema (see *The Handle* in the above schema).
 * The arrangement of Warm and Cool Ranges according to the gradatation of hues from adjacent hue sectors.
 
 ### 🔗 Links to Documentation
-|<h1>🚸</h1>[Installation & Usage](https://github.com/arvindcheenu/Chromataxy/blob/master/docs/INSTALL.md)|<h1>💄</h1>[Sass Api](https://github.com/arvindcheenu/Chromataxy/blob/master/docs/STYLE.md)|<h1>💻</h1>[Node Api](https://github.com/arvindcheenu/Chromataxy/blob/master/docs/API.md)|<h1>🕹️</h1>[Command Line Api](https://github.com/arvindcheenu/Chromataxy/blob/master/docs/CLI.md)|
+|<h1>🚸</h1>[Installation & Usage](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/INSTALL.md)|<h1>💄</h1>[Sass Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/STYLE.md)|<h1>💻</h1>[Node Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/API.md)|<h1>🕹️</h1>[Command Line Api](https://github.com/arvindcheenu/Chromanomer/blob/master/docs/CLI.md)|
 |--|--|--|--|

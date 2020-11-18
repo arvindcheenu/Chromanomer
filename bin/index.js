@@ -1,18 +1,18 @@
 #! /usr/bin/env node
 const {colorGenerator, makeVariables} = require ('../generator');
-const {Coxy} = require ('../dist/coxy');
+const {Cono} = require ('../dist/cono');
 const chalk = require ('chalk');
 require ('./intro') ();
 console.log ();
 let {argv} = require ('yargs')
-  .scriptName ('coxy')
+  .scriptName ('cono')
   .command (
     'palette <name> [--blindness] [--json] [--greedy]',
-    'Generate Harmonic Color Palettes from Coxy Color(s).',
+    'Generate Harmonic Color Palettes from Cono Color(s).',
     yargs => {
       yargs.positional ('n', {
         alias: 'name',
-        describe: "Color Name following Coxy's naming conventions.",
+        describe: "Color Name following Cono's naming conventions.",
         demandOption: 'Color Name is required.',
         type: 'string',
         nargs: 1,
@@ -50,9 +50,9 @@ let {argv} = require ('yargs')
       let colorObject;
       if (greedy) {
         if (blindness === undefined) {
-          colorObject = new Coxy ().withSubstring (name).chosenColors;
+          colorObject = new Cono ().withSubstring (name).chosenColors;
         } else {
-          colorObject = new Coxy ()
+          colorObject = new Cono ()
             .withSubstring (name)
             .withColorBlindnesses (blindness).chosenColors;
         }
@@ -79,9 +79,9 @@ let {argv} = require ('yargs')
         }
       } else {
         if (blindness === undefined) {
-          colorObject = new Coxy ().withColor (name).makePalette ().palette ();
+          colorObject = new Cono ().withColor (name).makePalette ().palette ();
         } else {
-          colorObject = new Coxy ()
+          colorObject = new Cono ()
             .withColor (name)
             .withColorBlindness (blindness)
             .makePalette ()
@@ -103,7 +103,7 @@ let {argv} = require ('yargs')
             console.log (
               chalk.hex (value).bold ('████▍') +
                 ' ' +
-                new Coxy ().findNearest (value).currentName +
+                new Cono ().findNearest (value).currentName +
                 ` (${key})` +
                 '\n' +
                 chalk.hex (value).bold ('████▍ ') +
@@ -117,7 +117,7 @@ let {argv} = require ('yargs')
             console.log (
               chalk.hex (value).bold ('████▍') +
                 ' ' +
-                new Coxy ().findNearest (value).currentName +
+                new Cono ().findNearest (value).currentName +
                 ` (${key})` +
                 '\n' +
                 chalk.hex (value).bold ('████▍ ') +
@@ -131,7 +131,7 @@ let {argv} = require ('yargs')
   )
   .command (
     'nearest <hex> [--colorspace] [--blindness]',
-    'Get the Closest Coxy Color Name for the given Hex Color.',
+    'Get the Closest Cono Color Name for the given Hex Color.',
     yargs => {
       yargs.positional ('x', {
         alias: 'hex',
@@ -167,9 +167,9 @@ let {argv} = require ('yargs')
       const {x, colorspace, blindness} = argv;
       let namedColor, hex, name;
       if (blindness === undefined) {
-        namedColor = new Coxy ().findNearest (x);
+        namedColor = new Cono ().findNearest (x);
       } else {
-        namedColor = new Coxy ().findNearest (x).withColorBlindness (blindness);
+        namedColor = new Cono ().findNearest (x).withColorBlindness (blindness);
       }
       name = namedColor.currentName;
       hex = namedColor.currentColor.substring (1).toUpperCase ();
@@ -214,11 +214,11 @@ let {argv} = require ('yargs')
   )
   .command (
     'color <name> [--colorspace] [--blindness]',
-    'Retrieve color information for given a Coxy Color Name.',
+    'Retrieve color information for given a Cono Color Name.',
     yargs => {
       yargs.positional ('n', {
         alias: 'name',
-        describe: "Color Name following Coxy's naming conventions.",
+        describe: "Color Name following Cono's naming conventions.",
         demandOption: 'Color Name is required.',
         type: 'string',
         nargs: 1,
@@ -250,9 +250,9 @@ let {argv} = require ('yargs')
       let {name, colorspace, blindness} = argv;
       let namedColor, hex;
       if (blindness === undefined) {
-        namedColor = new Coxy ().withColor (name);
+        namedColor = new Cono ().withColor (name);
       } else {
-        namedColor = new Coxy ()
+        namedColor = new Cono ()
           .withColor (name)
           .withColorBlindness (blindness);
       }
@@ -301,7 +301,7 @@ let {argv} = require ('yargs')
   )
   .command (
     'run <generator> [--language]',
-    'Run generators builtin with Coxy.',
+    'Run generators builtin with Cono.',
     yargs => {
       yargs.positional ('g', {
         alias: ['gen', 'generator'],

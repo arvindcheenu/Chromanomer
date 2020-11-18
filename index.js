@@ -3,13 +3,13 @@ const {colorGenerator} = require ('../generator/color');
 const Matercolor = require ('matercolors');
 const Blinder = require ('color-blind');
 const {cymk, rgb, hwb, hsl} = require ('../utility');
-module.exports.Coxy = function (lang = 'en') {
+module.exports.Cono = function (lang = 'en') {
   this.lang = lang;
   this.colors = colorGenerator (this.lang);
   this.chosenColors = {};
   this.currentColor;
   this.currentName;
-  this._nearestCoxy = require ('nearest-color').from (
+  this._nearestCono = require ('nearest-color').from (
     colorGenerator (this.lang)
   );
   // Define Getters
@@ -83,9 +83,9 @@ module.exports.Coxy = function (lang = 'en') {
     return this;
   };
   this.findNearest = function (hex) {
-    let coxy = this._nearestCoxy (hex);
-    this.currentColor = coxy.value;
-    this.currentName = coxy.name;
+    let cono = this._nearestCono (hex);
+    this.currentColor = cono.value;
+    this.currentName = cono.name;
     return this;
   };
 };
