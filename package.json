@@ -25,7 +25,7 @@
     "test": "ava",
     "coverage": "nyc npm run test",
     "demo": "node-sass demo/scss/ -o demo/css/",
-    "cloc": "npx cloc ../chromanomer > cloc.txt",
+    "cloc": "npx cloc ./ > cloc.txt",
     "build": "microbundle --name Cono --compress",
     "dev": "microbundle watch"
   },

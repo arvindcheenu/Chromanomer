@@ -1,0 +1,41 @@
+@import "./colors";
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  
+  @return $string;
+}
+@function percentMatch ($str,$substr) {
+    $slen : str-length($str);
+    $sslen : str-length($substr);
+    @return ($sslen * 100) / $slen
+}
+@function cono($name,$opacity:1) {
+    $bestPercent : 0;
+    $bestMatch : #ffffff;
+    @each $cono, $hex in $colors {
+        @if str-index($string: $name, $substring: $cono) != null {
+            $currentPercent : percentMatch($name,$cono);
+            @if $currentPercent > $bestPercent {
+                $bestMatch : rgba($hex, $opacity);
+                $bestPercent : $currentPercent;
+            }
+        }
+        @if $cono == quote($name) {
+             $bestMatch : rgba($hex, $opacity);
+             $bestPercent : 100;
+        }
+    }
+    @return $bestMatch;
+}
+@function get-all-matching($substring,$opacity:1) {
+    $subset : ();
+    @each $cono, $hex in $colors {
+        @if str-index($string: $substring, $substring: $cono) != null {
+            $subset : append($subset, $cono);
+        }
+    }
+    @return $subset;
+}

@@ -1,0 +1,106 @@
+@import './functions';
+// Mixins for using CSS Color Properties with Chromataxy
+@mixin color ($name,$opacity:1) {
+    color: rgba(cono($name),$opacity);
+};
+@mixin background-color ($name,$opacity:1) {
+    background-color: rgba(cono($name),$opacity);
+};
+@mixin text-decoration-color ($name,$opacity:1) {
+    text-decoration-color: rgba(cono($name),$opacity);
+};
+@mixin text-emphasis-color ($name,$opacity:1) {
+    text-emphasis-color: rgba(cono($name),$opacity);
+};
+@mixin caret-color ($name,$opacity:1) {
+    caret-color: rgba(cono($name),$opacity);
+};
+@mixin border-color ($name,$opacity:1) {
+    border-color: rgba(cono($name),$opacity);
+};
+@mixin border-left-color ($name,$opacity:1) {
+    border-left-color: rgba(cono($name),$opacity);
+};
+@mixin border-right-color ($name,$opacity:1) {
+    border-right-color: rgba(cono($name),$opacity);
+};
+@mixin border-top-color ($name,$opacity:1) {
+    border-top-color: rgba(cono($name),$opacity);
+};
+@mixin border-bottom-color ($name,$opacity:1) {
+    border-bottom-color: rgba(cono($name),$opacity);
+};
+@mixin border-block-start-color ($name,$opacity:1) {
+    border-block-start-color: rgba(cono($name),$opacity);
+};
+@mixin border-block-end-color ($name,$opacity:1) {
+    border-block-end-color: rgba(cono($name),$opacity);
+};
+@mixin border-inline-start-color ($name,$opacity:1) {
+    border-inline-start-color: rgba(cono($name),$opacity);
+};
+@mixin border-inline-end-color ($name,$opacity:1) {
+    border-inline-end-color: rgba(cono($name),$opacity);
+};
+@mixin column-rule-color ($name,$opacity:1) {
+    column-rule-color: rgba(cono($name),$opacity);
+};
+@mixin outline-color ($name,$opacity:1) {
+    outline-color: rgba(cono($name),$opacity);
+};
+
+@mixin generate-classes-for ($substring, $opacity:1) {
+    $subset : get-all-matching($substring,$opacity);
+    @for $i from 1 through length($subset) {
+        .#{str-replace(nth($subset, $i),' ','-')} {
+            &.color {
+                @include color(nth($subset, $i), $opacity)
+            }
+            &.background-color {
+                @include background-color(nth($subset, $i), $opacity)
+            }
+            &.text-decoration-color {
+                @include text-decoration-color(nth($subset, $i), $opacity)
+            }
+            &.text-emphasis-color {
+                @include text-emphasis-color(nth($subset, $i), $opacity)
+            }
+            &.caret-color {
+                @include caret-color(nth($subset, $i), $opacity)
+            }
+            &.column-rule-color {
+                @include column-rule-color(nth($subset, $i), $opacity)
+            }
+            &.border-color {
+                @include border-color(nth($subset, $i), $opacity)
+            }
+            &.border-top-color {
+                @include border-top-color(nth($subset, $i), $opacity)
+            }
+            &.border-bottom-color {
+                @include border-bottom-color(nth($subset, $i), $opacity)
+            }
+            &.border-left-color {
+                @include border-left-color(nth($subset, $i), $opacity)
+            }
+            &.border-right-color {
+                @include border-right-color(nth($subset, $i), $opacity)
+            }
+            &.border-block-start-color {
+                @include border-block-start-color(nth($subset, $i), $opacity)
+            }
+            &.border-block-end-color {
+                @include border-block-end-color(nth($subset, $i), $opacity)
+            }
+            &.border-inline-start-color {
+                @include border-inline-start-color(nth($subset, $i), $opacity)
+            }
+            &.border-inline-end-color {
+                @include border-inline-end-color(nth($subset, $i), $opacity)
+            }
+            &.outline-color {
+                @include outline-color(nth($subset, $i), $opacity)
+            }
+        }
+    }
+}
