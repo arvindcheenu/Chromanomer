@@ -1,6 +1,6 @@
 {
   "name": "chromanomer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Javascript Library enabling Universally Accessible Color Selection through Intutive Naming Conventions.",
   "source": "index.js",
   "main": "dist/cono.js",
@@ -19,6 +19,28 @@
     "utility",
     "style"
   ],
+  "keywords": [
+    "color-scheme",
+    "comparative",
+    "color",
+    "color-system",
+    "naming-conventions",
+    "chroma",
+    "nomenclature",
+    "design",
+    "naming-system",
+    "adjective",
+    "cono",
+    "hsluv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindcheenu/chromanomer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arvindcheenu/chromanomer/issues"
+  },
+  "homepage": "https://arvindcheenu.github.io/Chromanomer/",
   "scripts": {
     "start": "node index.js",
     "cli": "node bin/index.js",
