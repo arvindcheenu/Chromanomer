@@ -7,7 +7,6 @@ tags:
   - color
   - color blind assist
   - visualisation support
-  - hsluv
   - internationalisation
   - nomenclature
   - perceptual uniformity
@@ -42,7 +41,7 @@ The *Chromanomer* Javascript Library attempts to address these shortcomings by i
 
 *Chromanomer* works by building over the *HSLUV* Color Space[@hsluv] that maps the boundaries of *RGB* Color Space[@rgb2cielab_1997] to the perceptually uniform *CIELCHuv* Color Space[@uniformcolorspace_1994], thus circumventing the problem of unbounded chroma. The trade-off of using this approach is that chromaticity does not conform to perceptual uniformity. 
 
-The following schema was arrived at by extracting the best traits from existing naming solutions (such as the Five Color Primaries in *Munsell Naming System*[@ncs_1981]) and selecting linguistically universal color terms\autoref{fig:schematic}. The incorporation of Adjective terms also enhances the learnability and composability by reducing the potential number of color terms to remember.
+The following schema was arrived at by extracting the best traits from existing naming solutions (such as the Five Color Primaries in *Munsell Naming System*[@ncs_1981]) and selecting linguistically universal color terms (See \autoref{fig:schematic}). The incorporation of Adjective terms also enhances the learnability and composability by reducing the potential number of color terms to remember.
 
 ![Color Schema Visual Representation.\label{fig:schematic}](schematic.jpeg)
 
