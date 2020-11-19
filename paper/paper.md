@@ -6,7 +6,7 @@ tags:
   - cli
   - color
   - color blind assist
-  - creative computation
+  - visualisation support
   - hsluv
   - internationalisation
   - nomenclature
@@ -34,16 +34,15 @@ Since these models followed diverse methods of color representation, a unified s
 
 # Statement of Need
 
-The *Chromanomer* Javascript Library attempts to address these shortcomings by implementing a better color naming system that names a broader gamut of colors than any existing open-source solution while maintaining a shallow learning curve. By adopting an object-based modeling approach, this library is built with accessibility and internationalization in mind. Through the use of CSS preprocessors like Sass, the generation of colors is automated, thus enabling ease of use. *Chromanomer*'s concise API is functional and chainable by design. Ranging from Color conversions and Lookups to Palette Generation[@matercolors] and Transformations for Color Blindness[@colorblind], *Chromanomer* offers a consummate collection of methods for every possible use-case. Furthermore, *Chromanomer* also provides a colorful commandline interface visually representing colors as named swatches.  
+The *Chromanomer* Javascript Library attempts to address these shortcomings by implementing a better color naming system that names a broader gamut of colors than any existing open-source solution while maintaining a shallow learning curve. By adopting an object-based modeling approach, this library is built with accessibility, customisability and internationalization in mind. Through the use of CSS preprocessors like Sass, the generation of colors is automated, thus enabling ease of use. *Chromanomer*'s concise API is functional and chainable by design. Ranging from Color conversions and Lookups to Palette Generation[@matercolors] and Transformations for Color Blindness[@colorblind], *Chromanomer* offers a consummate collection of methods for the most pressing use-cases. Furthermore, *Chromanomer* also provides a colorful commandline interface visually representing colors as named swatches.  
 
-*Chromanomer* is designed to be used by Graphic Designers, UI Designers and Developers, and UX Researchers in the international community. Notably, Graphic Designers, Data Visualisation Specialists, and Developers with visual disabilities could incorporate colors into their designs with confidence and ease. UX Researchers, on the other hand, are now offered additional context that helps them arrive at substantial insights into the design process of visually impaired users. In brief, the ultimate goal of *Chromanomer* is to **make access to color universal.**
+*Chromanomer* is a software designed with the needs of Data Visualisation Specialists and UX Researchers in mind. Notably, Graphic Designers and Data Visualisation Specialists can incorporate colors into their designs with confidence and ease irrespective of their varying degrees of visual disability. API Implementation for Palette Generation and Greedy Selection are deliberately minimal and extensible by design to ensure its ease of use. UX Researchers, on the other hand, are now offered additional context that helps them arrive at substantial insights into the design process of visually impaired users, if this tool can be incorporated in a product offering that is being tested. In brief, the ultimate goal of *Chromanomer* is to **make access to color universal.**
 
 # Proposed Solution
 
 *Chromanomer* works by building over the *HSLUV* Color Space[@hsluv] that maps the boundaries of *RGB* Color Space[@rgb2cielab_1997] to the perceptually uniform *CIELCHuv* Color Space[@uniformcolorspace_1994], thus circumventing the problem of unbounded chroma. The trade-off of using this approach is that chromaticity does not conform to perceptual uniformity. 
 
 The following schema was arrived at by extracting the best traits from existing naming solutions (such as the Five Color Primaries in *Munsell Naming System*[@ncs_1981]) and selecting linguistically universal color terms\autoref{fig:schematic}. The incorporation of Adjective terms also enhances the learnability and composability by reducing the potential number of color terms to remember.
-
 
 ![Color Schema Visual Representation.\label{fig:schematic}](schematic.jpeg)
 
