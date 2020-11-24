@@ -1,5 +1,9 @@
 
 # 🍭 Chromanomer
+[![DOI](https://zenodo.org/badge/298333946.svg)](https://zenodo.org/badge/latestdoi/298333946)
+
+**Chromanomer** (abbreviated ***cono***) is a perceptually intuitive color naming system based on the ***Lightness Chroma Hue** color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve. 
+
 <p>
    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/arvindcheenu/chromanomer?style=flat-square">
    <a href="https://www.npmjs.com/package/chromanomer"><img alt="npm" src="https://img.shields.io/npm/v/chromanomer?color=cc3534&style=flat-square"></a>
@@ -8,8 +12,6 @@
    <a href="https://www.npmjs.com/package/chromanomer"><img alt="NPM" src="https://img.shields.io/npm/l/chromanomer?style=flat-square"></a>
 <br/>
 </p>
-
-**Chromanomer** (abbreviated ***cono***) is a perceptually intuitive color naming system based on the ***Lightness Chroma Hue** color space* that covers a sizeable spectrum of colors while boasting a negligible learning curve. 
 
 ![screenshot](https://raw.githubusercontent.com/arvindcheenu/Chromanomer/master/screenshots/no-command.png)
 
